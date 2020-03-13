@@ -15,7 +15,7 @@ body {
 .main > p:first-of-type {
       border: 2px solid #FFF;
 }
-.navigation-bar {
+.flex-navigation-bar {
       background-color: #B3DFF2; /* Sky blue, short is #BDF */
       display: flex;
       justify-content: space-between;
