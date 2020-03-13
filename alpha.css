@@ -33,3 +33,7 @@ body {
       margin: 15px 5px;
       padding: 5px;
 }
+.flex-header {
+      display: flex;
+      justify-content: space-between;
+}
