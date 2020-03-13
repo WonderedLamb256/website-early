@@ -24,10 +24,11 @@ body {
       margin: 0 auto;
 }
 .quick-icons {
-      border-left: 1px solid 75%;
-      margin: 10px 0;  
+      border-left: 1px solid #24649c;
 }
 .navigation {
-      border-right: 1px solid 75%;
-      margin: 10px 0;
+      border-right: 1px solid #24649c;
+}
+.centernavigation {
+      margin: 15px 0;
 }
