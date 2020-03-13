@@ -23,3 +23,9 @@ body {
 .automargin {
       margin: 0 auto;
 }
+.quicklinks {
+      border-left: 1px solid 75%;
+}
+.navigation {
+      border-right: 1px solid 75%;
+}
