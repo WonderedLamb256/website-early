@@ -43,3 +43,8 @@ body {
       font-size: 2em;
       padding: 50px;
 }
+.flex-footer {
+      display: flex;
+      justify-content: space-between;
+      background-color: #555;
+}
