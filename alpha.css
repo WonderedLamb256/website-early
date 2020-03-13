@@ -1,0 +1,22 @@
+/* 
+* .CSS file for testing stages of wonderedlamb256.github.io
+* Testing Stage: ALPHA
+* Not primary CSS file.
+*/
+* { /* CSS margin reset for global browser settings */
+      margin: 0;
+      padding: 0;
+      box-model: border-box;
+}
+
+body {
+      font-family: "Noto Sans", "Helvetica", sans-serif;
+}
+.main > p:first-of-type {
+      border: 2px solid #FFF;
+}
+.navigation-bar {
+      background-color: #B3DFF2; /* Sky blue, short is #BDF */
+      display: flex;
+      justify-content: space-between;
+}
