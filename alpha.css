@@ -10,7 +10,7 @@
 }
 
 body {
-      font-family: "Noto Sans", "Helvetica", sans-serif;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 .main > p:first-of-type {
       border: 2px solid #FFF;
@@ -19,4 +19,7 @@ body {
       background-color: #B3DFF2; /* Sky blue, short is #BDF */
       display: flex;
       justify-content: space-between;
+}
+.automargin {
+      margin: auto;
 }
