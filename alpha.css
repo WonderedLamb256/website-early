@@ -37,4 +37,5 @@ body {
       display: flex;
       justify-content: space-between;
       background-color: #24649c;
+      color: white;
 }
