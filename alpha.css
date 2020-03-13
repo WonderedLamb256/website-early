@@ -23,6 +23,9 @@ body {
 .automargin {
       margin: 0 auto;
 }
+.navmargin {
+      text-align: center;
+}
 .quick-icons {
       border-left: 1px solid 75%;
 }
