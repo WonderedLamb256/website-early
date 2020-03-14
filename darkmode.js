@@ -5,9 +5,9 @@ function checkForCookie {
 
 }
 function activateDarkMode() {
-      document.getElementsByClassName("flex-navigation-bar").style.background-color = "#7a7877";
-      document.getElementsByClassName("flex-header").style.background-color = "#484848";
-      document.getElementsByClassName("flex-main").style.background-color = "#111111";
-      document.getElementsByClassName("flex-main").style.color = "#cccccc";
+      document.getElementById("1").style.background-color = "#7a7877";
+      document.getElementById("2").style.background-color = "#484848";
+      document.getElementById("3").style.background-color = "#111111";
+      document.getElementById("3").style.color = "#cccccc";
       setDmCookie();
 }
