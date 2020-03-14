@@ -60,6 +60,6 @@ body {
       text-align: center;
       margin: 10px;
 }
-a {
+a:link, a:visited {
       color: #44c5d4;
 }
