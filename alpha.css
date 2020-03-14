@@ -12,13 +12,16 @@
 body {
       font-family: "Trebuchet MS", "Roboto", "Arial", sans-serif;
 }
-.main > p:first-of-type {
+main > p:first-of-type {
       border: 2px solid #FFF;
 }
 .flex-navigation-bar {
       background-color: #B3DFF2; /* Sky blue, short is #BDF */
       display: flex;
       justify-content: space-between;
+}
+.flex-navigation-bar > a:link, a:visited {
+      color: #FFF;
 }
 .automargin {
       margin: 0 auto;
