@@ -48,3 +48,7 @@ body {
       justify-content: space-between;
       background-color: #555;
 }
+.flex-boxes {
+      display: flex;
+      justify-content: space-between;
+}
