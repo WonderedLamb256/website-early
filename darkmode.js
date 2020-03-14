@@ -1,7 +1,7 @@
-function setDmCookie {
+function setDmCookie() {
 
 }
-function checkForCookie {
+function checkForCookie() {
 
 }
 function activateDarkMode() {
