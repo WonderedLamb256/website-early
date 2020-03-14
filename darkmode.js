@@ -4,7 +4,7 @@ function setDmCookie() {
 function checkForCookie() {
 
 }
-function activateDarkMode() {
+function enableDarkMode() {
       document.getElementById("1").style.background-color = "#7a7877";
       document.getElementById("2").style.background-color = "#484848";
       document.getElementById("3").style.background-color = "#111111";
