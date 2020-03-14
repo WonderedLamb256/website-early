@@ -9,11 +9,8 @@ function setDmCookie() {
       else if cookie == "false" {
             document.cookie = "wldarkmode=true;expires=" + utccdate + ";path=/";
       }
-}
-function checkForCookie() {
-      var cookie = browser.cookies.get(details{name:"wldarkmode"});
-      if cookie == "true" {
-            enableDarkModeNoSet();
+      else {
+            document.cookie = "wldarkmode=true;expires=" + utccdate + ";path=/";
       }
 }
 function enableDarkMode() {
@@ -32,4 +29,11 @@ function enableDarkModeNoSet() {
       document.getElementById("3").style.background = "#111111";
       document.getElementById("3").style.color = "#cccccc";
       document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#000000");
+}
+
+function checkForCookie() {
+      var cookie = browser.cookies.get(details{name:"wldarkmode"});
+      if cookie == "true" {
+            enableDarkModeNoSet();
+      }
 }
