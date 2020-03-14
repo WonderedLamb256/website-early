@@ -9,6 +9,6 @@ function enableDarkMode() {
       document.getElementById("2").style.background = "#484848";
       document.getElementById("3").style.background = "#111111";
       document.getElementById("3").style.color = "#cccccc";
-      document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#FFFFFF");
+      document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#000000");
       setDmCookie();
 }
