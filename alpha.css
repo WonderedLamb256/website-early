@@ -18,12 +18,12 @@ main > p:first-of-type {
 }
 */
 .flex-navigation-bar {
-      background-color: #B3DFF2; /* Sky blue, short is #BDF */
+      background-color: #b3dff2; /* Sky blue, short is #BDF */
       display: flex;
       justify-content: space-between;
 }
 .flex-navigation-bar > a:link, a:visited {
-      color: #FFF;
+      color: #fff;
 }
 .automargin {
       margin: 0 auto;
@@ -70,5 +70,5 @@ a:link, a:visited {
       color: #44c5d4;
 }
 i {
-      color: #000;
+      color: #b3dff2;
 }
