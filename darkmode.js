@@ -13,14 +13,28 @@
             document.cookie = "wldarkmode=true;expires=" + utccdate + ";path=/";
       }
 } ~All commented except for enableDarkMode();*/
+var darkmode = false;
 function enableDarkMode() {
-      document.getElementById("1").style.background = "#7a7877";
-      document.getElementById("1").style.color = "#ffffff";
-      document.getElementById("2").style.background = "#484848";
-      document.getElementById("3").style.background = "#111111";
-      document.getElementById("3").style.color = "#cccccc";
-      document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#000000");
+      if darkmode == false {
+            document.getElementById("1").style.background = "#7a7877";
+            document.getElementById("1").style.color = "#ffffff";
+            document.getElementById("2").style.background = "#484848";
+            document.getElementById("3").style.background = "#111111";
+            document.getElementById("3").style.color = "#cccccc";
+            document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#111111");
+            var darkmode = true;
+      }
+      else if darkmode == true {
+            document.getElementById("1").style.background = "#b3dff2";
+            document.getElementById("1").style.color = "#000000";
+            document.getElementById("2").style.background = "#24649c";
+            document.getElementById("3").style.background = "#ffffff";
+            document.getElementById("3").style.color = "#000000";
+            document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#ffffff");
+            var darkmode = false;
+      }
       setDmCookie();
+      console.log("Variable darkmode has been set to", darkmode);
 }
 /*
 function enableDarkModeNoSet() {
