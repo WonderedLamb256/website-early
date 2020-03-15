@@ -60,6 +60,7 @@ main > p:first-of-type {
 .box {
       padding: 50px;
       margin: 10px;
+      border-radius: 4px;
 }
 .pageheader {
       text-align: center;
