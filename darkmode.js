@@ -1,4 +1,4 @@
-function setDmCookie() {
+/*function setDmCookie() {
       var cookiedate = new Date(); // Spawn a process of date();
       cookiedate.setTime(cookiedate.getTime() + (365 * 24 * 60 * 60 * 1000));
       var utccdate = cookiedate.toUTCString();
@@ -12,7 +12,7 @@ function setDmCookie() {
       else {
             document.cookie = "wldarkmode=true;expires=" + utccdate + ";path=/";
       }
-}
+} ~All commented except for enableDarkMode();*/
 function enableDarkMode() {
       document.getElementById("1").style.background = "#7a7877";
       document.getElementById("1").style.color = "#ffffff";
@@ -22,6 +22,7 @@ function enableDarkMode() {
       document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#000000");
       setDmCookie();
 }
+/*
 function enableDarkModeNoSet() {
       document.getElementById("1").style.background = "#7a7877";
       document.getElementById("1").style.color = "#ffffff";
@@ -37,3 +38,4 @@ function checkForCookie() {
             enableDarkModeNoSet();
       }
 }
+*/
