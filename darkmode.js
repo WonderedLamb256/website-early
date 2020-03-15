@@ -18,12 +18,17 @@ function setDmCookie() {
       document.cookie = "darkmode=" + darkmode;
       alert("Cookie for darkmode has been set to " + document.cookie);
 }
+function getCookie(name) {
+      var value = "; " + document.cookie;
+      var parts = value.split("; " + name + "=");
+      if (parts.length == 2) return parts.pop().split(";").shift();
+}
 function checkForCookie() {
-      if ((document.cookie.length > 13) == true) {
-            darkmode = false;
+      if (getCookie("darkmode") == "true") {
+            darkmode = true;
       }
       else {
-            darkmode = true;
+            darkmode = false;
       }
 }
 function enableDarkMode() {
@@ -45,7 +50,7 @@ function enableDarkMode() {
             document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#ffffff");
             darkmode = false;
       }
-      setDmCookie();
+      checkForCookie();
       console.log("Variable darkmode has been set to", darkmode);
 }
 (function() {
