@@ -19,11 +19,11 @@ function setDmCookie() {
       console.log("Cookie for darkmode has been set to " + document.cookie);
 }
 function checkForCookie() {
-      if (document.cookie == "darkmode=true") {
-            darkmode = true;
+      if (document.cookie.length > 13) {
+            darkmode = false;
       }
       else {
-            darkmode = false;
+            darkmode = true;
       }
 }
 function enableDarkMode() {
