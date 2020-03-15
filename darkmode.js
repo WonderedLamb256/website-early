@@ -14,6 +14,18 @@
       }
 } ~All commented except for enableDarkMode();*/
 var darkmode = false;
+function setDmCookie() {
+      document.cookie = "darkmode=" + darkmode;
+      console.log("Cookie for darkmode has been set to " + document.cookie);
+}
+function checkForCookie() {
+      if (return document.cookie == "darkmode=true") {
+            darkmode = true;
+      }
+      else {
+            darkmode = false;
+      }
+}
 function enableDarkMode() {
       if (darkmode == false) {
             document.getElementById("1").style.background = "#7a7877";
@@ -33,7 +45,7 @@ function enableDarkMode() {
             document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#ffffff");
             darkmode = false;
       }
-      /*setDmCookie();*/
+      setDmCookie();
       console.log("Variable darkmode has been set to", darkmode);
 }
 /*
