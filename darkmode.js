@@ -48,6 +48,9 @@ function enableDarkMode() {
       setDmCookie();
       console.log("Variable darkmode has been set to", darkmode);
 }
+(function() {
+      checkForCookie();
+})();
 /*
 function enableDarkModeNoSet() {
       document.getElementById("1").style.background = "#7a7877";
