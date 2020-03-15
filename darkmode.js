@@ -50,7 +50,7 @@ function enableDarkMode() {
             document.getElementsByTagName("body")[0].setAttribute("bgcolor", "#ffffff");
             darkmode = false;
       }
-      checkForCookie();
+      setDmCookie();
       console.log("Variable darkmode has been set to", darkmode);
 }
 (function() {
